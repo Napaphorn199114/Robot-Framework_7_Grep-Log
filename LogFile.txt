@@ -1,0 +1,18 @@
+/var/log/messages:Dec 28 10:36:52 centos7vm kernel: ACPI: Using IOAPIC for interrupt routing
+/var/log/messages:Dec 28 10:36:52 centos7vm kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+/var/log/messages:Dec 28 10:36:52 centos7vm kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+/var/log/messages:Dec 28 10:36:52 centos7vm kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+/var/log/messages:Dec 28 10:36:52 centos7vm kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+/var/log/messages-20201225:Dec 23 23:01:00 centos7vm kernel: ACPI: Using IOAPIC for interrupt routing
+/var/log/messages-20201225:Dec 23 23:01:00 centos7vm kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+/var/log/messages-20201225:Dec 23 23:01:00 centos7vm kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+/var/log/messages-20201225:Dec 23 23:01:00 centos7vm kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+/var/log/messages-20201225:Dec 23 23:01:00 centos7vm kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+/var/log/messages-20201225:Dec 23 23:01:00 centos7vm kernel: BERT: Boot Error Record Table support is disabled. Enable it by using bert_enable as kernel parameter.
+/var/log/messages-20201227:Dec 27 19:11:18 centos7vm kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+/var/log/messages-20201227:Dec 27 19:11:18 centos7vm kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+/var/log/messages-20201227:Dec 27 19:11:18 centos7vm kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+/var/log/messages-20201227:Dec 27 19:11:18 centos7vm kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+/var/log/messages-20201227:Dec 27 19:11:18 centos7vm kernel: BERT: Boot Error Record Table support is disabled. Enable it by using bert_enable as kernel parameter.
+/var/log/messages-20201227:Dec 27 19:11:21 centos7vm kernel: [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message.
+/var/log/messages-20201227:Dec 27 19:11:21 centos7vm kernel: [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message.

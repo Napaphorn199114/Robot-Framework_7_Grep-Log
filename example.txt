@@ -1,0 +1,2 @@
+/var/log/messages-20201227:Dec 27 19:11:21 centos7vm kernel: [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message.
+/var/log/messages-20201227:Dec 27 19:11:21 centos7vm kernel: [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message.

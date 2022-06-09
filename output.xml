@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.4 on win32)" generated="20220609 11:11:14.732" rpa="false" schemaversion="3">
+<suite id="s1" name="grepLog" source="D:\Advance_Robot_Python\Robot Framework_7_Grep Log\grepLog.robot">
+<test id="s1-t1" name="Create File Grep Log" line="6">
+<kw name="Create File" library="OperatingSystem">
+<arg>D:\\Advance_Robot_Python\\Robot Framework_7_Grep Log/example.txt</arg>
+<doc>Creates a file with the given content and encoding.</doc>
+<msg timestamp="20220609 11:11:14.928" level="INFO" html="true">Created file '&lt;a href="file://D:\Advance_Robot_Python\Robot Framework_7_Grep Log\example.txt"&gt;D:\Advance_Robot_Python\Robot Framework_7_Grep Log\example.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20220609 11:11:14.928" endtime="20220609 11:11:14.928"/>
+</kw>
+<kw name="Grep File" library="OperatingSystem">
+<var>${response}</var>
+<arg>D:\\Advance_Robot_Python\\Robot Framework_7_Grep Log/LogFile.txt</arg>
+<arg>*ERROR*</arg>
+<doc>Returns the lines of the specified file that match the ``pattern``.</doc>
+<msg timestamp="20220609 11:11:14.929" level="INFO" html="true">Reading file '&lt;a href="file://D:\Advance_Robot_Python\Robot Framework_7_Grep Log\LogFile.txt"&gt;D:\Advance_Robot_Python\Robot Framework_7_Grep Log\LogFile.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20220609 11:11:14.934" level="INFO">2 out of 18 lines matched</msg>
+<msg timestamp="20220609 11:11:14.934" level="INFO">${response} = /var/log/messages-20201227:Dec 27 19:11:21 centos7vm kernel: [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message.
+/var/log/messages-20201227:Dec 27 19:11:21 centos7vm kernel: [drm:vmw_...</msg>
+<status status="PASS" starttime="20220609 11:11:14.929" endtime="20220609 11:11:14.934"/>
+</kw>
+<kw name="Append To File" library="OperatingSystem">
+<arg>D:\\Advance_Robot_Python\\Robot Framework_7_Grep Log/example.txt</arg>
+<arg>${response}</arg>
+<doc>Appends the given content to the specified file.</doc>
+<msg timestamp="20220609 11:11:14.935" level="INFO" html="true">Appended to file '&lt;a href="file://D:\Advance_Robot_Python\Robot Framework_7_Grep Log\example.txt"&gt;D:\Advance_Robot_Python\Robot Framework_7_Grep Log\example.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20220609 11:11:14.935" endtime="20220609 11:11:14.935"/>
+</kw>
+<status status="PASS" starttime="20220609 11:11:14.927" endtime="20220609 11:11:14.936"/>
+</test>
+<status status="PASS" starttime="20220609 11:11:14.734" endtime="20220609 11:11:14.937"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="grepLog">grepLog</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
